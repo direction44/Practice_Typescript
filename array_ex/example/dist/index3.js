@@ -1,0 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let numbers = [10, 20, 30, 40, 50];
+let name = ["disha", "riya", "ram", "yami"];
+let status = [true, false];
+console.log(numbers);
+console.log(name);
+console.log(status);
+//# sourceMappingURL=index3.js.map
