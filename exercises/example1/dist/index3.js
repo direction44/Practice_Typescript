@@ -1,15 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 function findUserNameById(users, id) {
-    // console.log(users)
-    for (let user of users) {
+    for (let [name, userId] of users) {
         // console.log(user)
-        if (user[1] == id) {
-            return user;
+        if (userId == id) {
+            return name;
         }
     }
     return null;
 }
-let users = [["Disha", 10], ["priya", 20], ["yachna", 30], ["nandini", 40]];
-console.log(findUserNameById(users, 40));
+let AllUsers = [["Disha", 10], ["priya", 20], ["yachna", 30], ["nandini", 40]];
+console.log(findUserNameById(AllUsers, 40));
 //# sourceMappingURL=index3.js.map
