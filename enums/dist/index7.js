@@ -6,7 +6,7 @@ var Status;
     Status["shipped"] = "SHIPPED";
     Status["delivered"] = "DELIVERED";
 })(Status || (Status = {}));
-let allOptions = Object.values(Status);
+let allOptions = Object.values(Status); // values will work only in es1027
 allOptions.forEach((option) => {
     console.log(option);
 });
